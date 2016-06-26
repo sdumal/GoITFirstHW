@@ -1,0 +1,33 @@
+body {
+    background-color: #ddd;
+}
+
+.wrapper {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding: 1% 5%;
+    background-color: white;
+    box-shadow: 0 0 0 3px #bbb;
+    line-height: 1.4;
+}
+
+h1,
+.myphoto {
+    text-align: center;
+}
+
+.whoami,
+.list,
+.profile {
+    border-bottom: 2px solid #bbb;
+}
+
+.whoami p,
+.list ul,
+.list p,
+.profile div,
+.profile a,
+.feedback div {
+    margin-left: 20px;
+}
